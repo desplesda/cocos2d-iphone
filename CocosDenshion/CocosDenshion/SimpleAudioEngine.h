@@ -83,6 +83,8 @@
 -(void) unloadEffect:(NSString*) filePath;
 /** Gets a CDSoundSource object set up to play the specified file. */
 -(CDSoundSource *) soundSourceForFile:(NSString*) filePath;
+/** returns the length of a sound effect with a path (and preloads it if it isn't). */
+-(float) durationForEffect:(NSString*)path;
 
 /** Shuts down the shared audio engine instance so that it can be reinitialised */
 +(void) end;

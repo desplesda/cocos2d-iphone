@@ -217,4 +217,16 @@ static CDBufferManager *bufferManager = nil;
 	}	
 }	
 
+#pragma mark SimpleAudioEngine - EffectsDuration
+
+- (float) durationForEffect:(NSString*)path {
+    int soundId = [bufferManager bufferForFile:path create:NO];
+	if (soundId == kCDNoBuffer) {
+        return -1;
+    }
+    
+    return [soundEngine bufferDurationInSeconds:soundId];
+}
+
+
 @end 

@@ -1538,6 +1538,8 @@
 		654094D314E9856000FC93EA /* animations in Resources */ = {isa = PBXBuildFile; fileRef = 502C8C9810A701D300D137BA /* animations */; };
 		6540963B14E9E7D000FC93EA /* animations in Resources */ = {isa = PBXBuildFile; fileRef = 502C8C9810A701D300D137BA /* animations */; };
 		6540963C14E9E7D300FC93EA /* animations in Resources */ = {isa = PBXBuildFile; fileRef = 502C8C9810A701D300D137BA /* animations */; };
+		6898A3C7154EB58E00F1DF79 /* SimpleAudioEngine+SoundEvents.h in Headers */ = {isa = PBXBuildFile; fileRef = 6898A3C5154EB58E00F1DF79 /* SimpleAudioEngine+SoundEvents.h */; };
+		6898A3C8154EB58E00F1DF79 /* SimpleAudioEngine+SoundEvents.m in Sources */ = {isa = PBXBuildFile; fileRef = 6898A3C6154EB58E00F1DF79 /* SimpleAudioEngine+SoundEvents.m */; };
 		6F305B5F0FB9D2790052E700 /* TransformUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = 6F305B5D0FB9D2790052E700 /* TransformUtils.h */; };
 		6F305B600FB9D2790052E700 /* TransformUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F305B5E0FB9D2790052E700 /* TransformUtils.m */; };
 		8E3FC8920F7B8BE900B3E5DE /* trance-loop.ogg in Resources */ = {isa = PBXBuildFile; fileRef = 8E3FC8910F7B8BE900B3E5DE /* trance-loop.ogg */; };
@@ -4704,6 +4706,9 @@
 		657F114E150BA75D0047F93C /* AppController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppController.m; sourceTree = "<group>"; };
 		657F114F150BA75D0047F93C /* PerformanceDispatcher.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PerformanceDispatcher.h; sourceTree = "<group>"; };
 		657F1150150BA75D0047F93C /* PerformanceDispatcher.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PerformanceDispatcher.m; sourceTree = "<group>"; };
+		6898A3C5154EB58E00F1DF79 /* SimpleAudioEngine+SoundEvents.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "SimpleAudioEngine+SoundEvents.h"; sourceTree = "<group>"; };
+		6898A3C6154EB58E00F1DF79 /* SimpleAudioEngine+SoundEvents.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "SimpleAudioEngine+SoundEvents.m"; sourceTree = "<group>"; };
+		6898A3CA154EBA2B00F1DF79 /* SoundEvents.mdown */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = SoundEvents.mdown; sourceTree = "<group>"; };
 		6F305B5D0FB9D2790052E700 /* TransformUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TransformUtils.h; sourceTree = "<group>"; };
 		6F305B5E0FB9D2790052E700 /* TransformUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TransformUtils.m; sourceTree = "<group>"; };
 		8E3FC8910F7B8BE900B3E5DE /* trance-loop.ogg */ = {isa = PBXFileReference; lastKnownFileType = text; path = "trance-loop.ogg"; sourceTree = "<group>"; };
@@ -6336,6 +6341,9 @@
 				5052216111B3D38A0061670F /* CocosDenshion.m */,
 				5052216211B3D38A0061670F /* SimpleAudioEngine.h */,
 				5052216311B3D38A0061670F /* SimpleAudioEngine.m */,
+				6898A3C5154EB58E00F1DF79 /* SimpleAudioEngine+SoundEvents.h */,
+				6898A3C6154EB58E00F1DF79 /* SimpleAudioEngine+SoundEvents.m */,
+				6898A3CA154EBA2B00F1DF79 /* SoundEvents.mdown */,
 			);
 			path = CocosDenshion;
 			sourceTree = "<group>";
@@ -7967,6 +7975,7 @@
 				505224DF11B3D3A80061670F /* CDOpenALSupport.h in Headers */,
 				505224E111B3D3A80061670F /* CocosDenshion.h in Headers */,
 				505224E311B3D3A80061670F /* SimpleAudioEngine.h in Headers */,
+				6898A3C7154EB58E00F1DF79 /* SimpleAudioEngine+SoundEvents.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -12412,6 +12421,7 @@
 				505224E011B3D3A80061670F /* CDOpenALSupport.m in Sources */,
 				505224E211B3D3A80061670F /* CocosDenshion.m in Sources */,
 				505224E411B3D3A80061670F /* SimpleAudioEngine.m in Sources */,
+				6898A3C8154EB58E00F1DF79 /* SimpleAudioEngine+SoundEvents.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
